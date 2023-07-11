@@ -7,7 +7,7 @@
 
 /* ------------banner-section-------- */
 .banner-section {
-    background: #f1d8f1;
+    background: #eddbed;
     padding: 18px 0;
 }
 
@@ -18,15 +18,18 @@
     margin-bottom: 20px;
 }
 .common-paragraph{
-    color: #24232399;
+    color: #6c686899;
     font-size: 12px;
     margin-bottom: 15px;
+    margin-top: 10px;
+    font-weight: 700;
 }
 .shop-btn{
     border: none;
     background: #E55473;
     color: #fff;
     padding: 8px 18px;
+    font-weight: bold;
     border-radius: 5px;
 }
 .banner-details{
@@ -43,9 +46,7 @@
 
 /* ----------Featured-Flowers-------- */
 .featured-flowers{
-    margin: 90px auto;
-    background: #f44949;
-    width: 70%;
+    margin: 60px;
 }
 .featured-flowers-heading{
     text-align: center;
@@ -56,13 +57,34 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background: #8b7777;
-}
-.flower-gate img{
-    width: 60%;
-    background: #000;
     text-align: center;
+    margin-top: 50px;
 }
+.flower-gate{
+    width: 300px;
+    height: 270px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding-top: 3rem;
+}
+
+.fl-1{
+    position: relative;
+    top: 21px;
+    width: 60%;
+}
+.fl-2{
+    position: relative;
+    top: 30px;
+    width: 80%;
+}
+.fl-3{
+    width: 60%;
+}
+
+.color-1{background: #F2DEE8;}
+.color-2{background: #DAF0F1;}
+.color-3{background: #E4ECDC;}
 
 /* ---------flower-service------- */
 
@@ -75,12 +97,96 @@
     background: rgb(222, 219, 219);
     width: 70%;
     padding: 60px 0;
-    margin: 0 auto; 
+    margin: 50px auto; 
 }
 .services img{
     width: 50px;
     height: 50px;
 }
+
+/* ----------banner-2------- */
+.banner2-section{
+    padding: 55px 30px;
+}
+.right-banner2-photo img{
+    width: 65%;
+}
+.banner2-des h3{
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+.banner2-des{
+    text-align: center;
+}
+
+/* ------------instagram------------- */
+
+.instagram{
+    margin: 50px 0;
+}
+.flower-card img{
+    width: 16%;
+    margin: 18px;
+}
+.flower-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ------------deal------------- */
+.deal{
+    text-align: center;
+    background: url("./Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 38px 220px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.deal-des input{
+    width: 25rem;
+    border: none;
+    outline: none;
+    height: 43px;
+    padding-left: 10px;
+    margin-right: 4px;
+    color: #8b7777;
+    font-size: 11px;
+}
+
+.subscribe{
+    border: none;
+    background: #E55473;
+    color: #fff;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* -----------footer----------- */
+footer{
+    background: #000;
+    background: #000;
+    padding: 60px;
+    text-align: center;
+    color: #fff;
+}
+footer small{
+    font-size: 12px;
+    color: #918f8f99;
+}
+footer p{
+    font-size: 11px;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.90);;
+}
+.flower-color{
+    color: #E55473;
+}
+
 
 
 
