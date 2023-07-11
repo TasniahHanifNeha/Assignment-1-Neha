@@ -166,6 +166,68 @@
     border-radius: 5px;
 }
 
+/* --------------top-sell---------- */
+.top-sell{
+    margin: 70px 0;
+}
+.bouquets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    padding: 25px;
+}
+.bouquet-box{
+    background: #EBE5D4;
+    border-top-left-radius: 75px;
+    border-bottom-right-radius: 60px;
+    box-shadow: -5px 4px 9px #686767;
+}
+figure figcaption{
+    padding: 6px 20px;
+}
+.bq-des{
+    font-size: 12px;
+    color: #6b6060;
+    line-height: 12px;
+}
+
+.bouquet-box i{
+    color: #7B3F00;
+}
+.bouquet-box img{
+    width: 250px;
+    border-top-left-radius: 75px;
+    padding: 15px;
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+.buy{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: #7B3F00;
+    font-weight: bold;
+}
+.rate small{
+    font-size: 25px;
+    font-style: italic;
+    color: #7B3F00;
+}
+.star-rate{
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+
+
 /* -----------footer----------- */
 footer{
     background: #000;
