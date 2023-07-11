@@ -5,7 +5,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/* ------------banner-section-------- */
+/* ------------banner1-section-------- */
 .banner-section {
     background: #eddbed;
     padding: 18px 0;
@@ -28,7 +28,7 @@
     border: none;
     background: #E55473;
     color: #fff;
-    padding: 8px 18px;
+    padding: 8px 23px;
     font-weight: bold;
     border-radius: 5px;
 }
@@ -46,11 +46,10 @@
 
 /* ----------Featured-Flowers-------- */
 .featured-flowers{
-    margin: 60px;
+    margin: 80px;
 }
 .featured-flowers-heading{
     text-align: center;
-    margin-bottom: 20px;
 }
 .flower-gate-box{
     display: flex;
@@ -58,7 +57,7 @@
     align-items: center;
     gap: 20px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .flower-gate{
     width: 300px;
@@ -67,19 +66,32 @@
     border-top-right-radius: 50%;
     padding-top: 3rem;
 }
-
+.pink-flw1{
+    margin-top: 20px;
+}
+.flower-gate p{
+    text-decoration: underline;
+    font-size: 14px;
+}
+.pink-flw2{
+    margin-top: 30px;
+}
 .fl-1{
     position: relative;
     top: 21px;
     width: 60%;
+    margin-bottom: 10px;
 }
 .fl-2{
     position: relative;
     top: 30px;
     width: 80%;
+    margin-bottom: 10px;
 }
 .fl-3{
+    position: relative;
     width: 60%;
+    margin-bottom: 10px;
 }
 
 .color-1{background: #F2DEE8;}
@@ -94,10 +106,12 @@
     align-items: center;
     justify-content: center;
     gap: 120px;
-    background: rgb(222, 219, 219);
-    width: 70%;
-    padding: 60px 0;
-    margin: 50px auto; 
+    background: #F4F4F4;
+    padding: 80px 10px;
+    margin: 70px 290px; 
+}
+.services h5{
+    color: #686767;
 }
 .services img{
     width: 50px;
@@ -111,7 +125,7 @@
 .right-banner2-photo img{
     width: 65%;
 }
-.banner2-des h3{
+.banner2-des h2{
     margin-bottom: 20px;
     font-weight: 900;
 }
@@ -164,6 +178,7 @@
     padding: 12px 20px;
     font-weight: bold;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /* --------------top-sell---------- */
@@ -184,7 +199,7 @@
     border-bottom-right-radius: 60px;
     box-shadow: -5px 4px 9px #686767;
 }
-figure figcaption{
+.bouquet-box figcaption{
     padding: 6px 20px;
 }
 .bq-des{
@@ -248,10 +263,4 @@ footer p{
 .flower-color{
     color: #E55473;
 }
-
-
-
-
-
-
 
