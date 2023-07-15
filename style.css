@@ -1,8 +1,8 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', 'sans-serif';
+    font-family: 'Open Sans', 'sans-serif';
 }
 
 /* ------------banner1-section-------- */
@@ -11,20 +11,22 @@
     padding: 18px 0;
 }
 
-.left-banner-des h1{
+.left-banner-des h1 {
     font-size: 45px;
     line-height: 50px;
     font-weight: 900;
     margin-bottom: 20px;
 }
-.common-paragraph{
+
+.common-paragraph {
     color: #6c686899;
     font-size: 12px;
     margin-bottom: 15px;
     margin-top: 10px;
     font-weight: 700;
 }
-.shop-btn{
+
+.shop-btn {
     border: none;
     background: #E55473;
     color: #fff;
@@ -32,11 +34,12 @@
     font-weight: bold;
     border-radius: 5px;
 }
-.banner-details{
+
+.banner-details {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 100px
+    margin: 0 100px;
 }
 
 .right-banner-photo img {
@@ -45,13 +48,15 @@
 }
 
 /* ----------Featured-Flowers-------- */
-.featured-flowers{
+.featured-flowers {
     margin: 80px;
 }
-.featured-flowers-heading{
+
+.featured-flowers-heading {
     text-align: center;
 }
-.flower-gate-box{
+
+.flower-gate-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,48 +64,63 @@
     text-align: center;
     margin-top: 30px;
 }
-.flower-gate{
+
+.flower-gate {
     width: 300px;
     height: 270px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     padding-top: 3rem;
 }
-.pink-flw1{
+
+.pink-flw1 {
     margin-top: 20px;
 }
-.flower-gate p{
+
+.flower-gate p {
     text-decoration: underline;
     font-size: 14px;
 }
-.pink-flw2{
+
+.pink-flw2 {
     margin-top: 30px;
 }
-.fl-1{
+
+.fl-1 {
     position: relative;
     top: 21px;
     width: 60%;
     margin-bottom: 10px;
 }
-.fl-2{
+
+.fl-2 {
     position: relative;
     top: 30px;
     width: 80%;
     margin-bottom: 10px;
 }
-.fl-3{
+
+.fl-3 {
     position: relative;
     width: 60%;
     margin-bottom: 10px;
 }
 
-.color-1{background: #F2DEE8;}
-.color-2{background: #DAF0F1;}
-.color-3{background: #E4ECDC;}
+.color-1 {
+    background: #F2DEE8;
+}
+
+.color-2 {
+    background: #DAF0F1;
+}
+
+.color-3 {
+    background: #E4ECDC;
+}
 
 /* ---------flower-service------- */
 
-.flower-service{
+.flower-service {
     display: flex;
     text-align: center;
     align-items: center;
@@ -108,47 +128,55 @@
     gap: 120px;
     background: #F4F4F4;
     padding: 80px 10px;
-    margin: 70px 290px; 
+    margin: 70px 290px;
 }
-.services h5{
+
+.services h5 {
     color: #686767;
 }
-.services img{
+
+.services img {
     width: 50px;
     height: 50px;
 }
 
 /* ----------banner-2---=---- */
-.banner2-section{
+.banner2-section {
     padding: 55px 30px;
 }
-.right-banner2-photo img{
+
+.right-banner2-photo img {
     width: 65%;
 }
-.banner2-des h2{
+
+.banner2-des h2 {
     margin-bottom: 20px;
     font-weight: 900;
 }
-.banner2-des{
+
+.banner2-des {
     text-align: center;
 }
 
 /* ------------instagram------------- */
 
-.instagram{
+.instagram {
     margin: 50px 0;
 }
-.flower-card img{
+
+.flower-card img {
     width: 16%;
     margin: 18px;
 }
-.flower-card{
+
+.flower-card {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 /* ------------deal------------- */
-.deal{
+.deal {
     text-align: center;
     background: url("./Flower Asset/Rectangle\ 9.png");
     background-repeat: no-repeat;
@@ -160,7 +188,8 @@
     align-items: center;
     justify-content: center;
 }
-.deal-des input{
+
+.deal-des input {
     width: 25rem;
     border: none;
     outline: none;
@@ -171,7 +200,7 @@
     font-size: 11px;
 }
 
-.subscribe{
+.subscribe {
     border: none;
     background: #E55473;
     color: #fff;
@@ -182,10 +211,11 @@
 }
 
 /* --------------top-sell---------- */
-.top-sell{
+.top-sell {
     margin: 70px 0;
 }
-.bouquets{
+
+.bouquets {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,36 +223,42 @@
     margin-top: 30px;
     padding: 25px;
 }
-.bouquet-box{
+
+.bouquet-box {
     background: #EBE5D4;
     border-top-left-radius: 75px;
     border-bottom-right-radius: 60px;
     box-shadow: -5px 4px 9px #686767;
 }
-.bouquet-box figcaption{
+
+.bouquet-box figcaption {
     padding: 6px 20px;
 }
-.bq-des{
+
+.bq-des {
     font-size: 12px;
     color: #6b6060;
     line-height: 12px;
 }
 
-.bouquet-box i{
+.bouquet-box i {
     color: #7B3F00;
 }
-.bouquet-box img{
+
+.bouquet-box img {
     width: 250px;
     border-top-left-radius: 75px;
     padding: 15px;
 }
-.rate{
+
+.rate {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 15px 0;
 }
-.buy{
+
+.buy {
     padding: 10px 15px;
     border-radius: 20px;
     border: none;
@@ -230,12 +266,14 @@
     background: #7B3F00;
     font-weight: bold;
 }
-.rate small{
+
+.rate small {
     font-size: 25px;
     font-style: italic;
     color: #7B3F00;
 }
-.star-rate{
+
+.star-rate {
     text-align: center;
     margin: 10px 0;
 }
@@ -244,23 +282,80 @@
 
 
 /* -----------footer----------- */
-footer{
+footer {
     background: #000;
     background: #000;
     padding: 60px;
     text-align: center;
     color: #fff;
 }
-footer small{
+
+footer small {
     font-size: 12px;
     color: #918f8f99;
 }
-footer p{
+
+footer p {
     font-size: 11px;
     margin: 10px;
-    color: rgba(255, 255, 255, 0.90);;
+    color: rgba(255, 255, 255, 0.90);
+    ;
 }
-.flower-color{
+
+.flower-color {
     color: #E55473;
 }
 
+
+
+@media screen and (max-width:576px) {
+
+    .banner-details, .deal,
+    .flower-gate-box,.bouquets, .flower-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-details{
+        padding-top: 45px;
+    }
+
+    .right-banner-photo img {
+        padding: 30px;
+    }
+
+    .flower-gate {
+        margin-bottom: 2rem;
+    }
+
+    .flower-service{
+        margin: 70px auto;
+        flex-direction: column;
+    }
+    .banner2-section {
+        padding: 0;
+    }
+
+    .right-banner2-photo img {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .flower-card img, .bouquet-box {
+        width: 100%;
+    }
+    .flower-card{
+        margin: 20px;
+    }
+    .bouquet-box img{
+        width: 90%;
+    }
+    .deal{
+        margin: 0px 0 10px 10px;
+    }
+    .subscribe{
+        margin-top: 10px;
+        width: 50%;
+    }
+    footer{
+        padding: 50px 25px;
+    }
+}
